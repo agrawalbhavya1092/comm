@@ -1,0 +1,9 @@
+{% extends "base-login.html" %}
+
+{% load i18n %}
+{% block head_title %}{% trans "Sign In" %}{% endblock %}
+
+{% block content %}
+{% include 'registration/login_form.html' %}
+
+{% endblock %}
